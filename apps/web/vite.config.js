@@ -3,7 +3,10 @@ import react from "@vitejs/plugin-react";
 import { fileURLToPath, URL } from "node:url";
 
 export default defineConfig({
+  base: "/fotostudiodigitalmadueno4/",
+
   plugins: [react()],
+
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
