@@ -1,1 +1,13 @@
-﻿node_modules/`ndist/`nbuild/`napps/web/node_modules/`napps/web/dist/`n.vite/`n.DS_Store`n*.log`nnpm-debug.log*`nyarn-debug.log*`nyarn-error.log*`n.env`ncoverage/`n
+﻿node_modules/
+dist/
+build/
+apps/web/node_modules/
+apps/web/dist/
+.vite/
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+coverage/
