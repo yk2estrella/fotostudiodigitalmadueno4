@@ -5,7 +5,7 @@ import HomePage from './pages/HomePage';
 
 function App() {
     return (
-        <Router>
+        <Router basename="/fotostudiodigitalmadueno4/">
             <ScrollToTop />
             <Routes>
                 <Route path="/" element={<HomePage />} />
