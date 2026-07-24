@@ -4,6 +4,10 @@ import { fileURLToPath, URL } from "node:url";
 
 export default defineConfig({
   base: "/fotostudiodigitalmadueno4/",
+  
+  build: {
+    outDir: "docs",
+  },
 
   plugins: [react()],
 
